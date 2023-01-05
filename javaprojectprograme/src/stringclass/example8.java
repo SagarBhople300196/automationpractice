@@ -1,0 +1,15 @@
+package stringclass;
+
+public class example8 {
+
+	public static void main(String[] args) {
+		String str="Pune"+1536;
+		System.out.println(str);
+		String s1="Mumbai";
+		System.out.println(s1.concat("Pune"));
+		String str1=str.concat(null);
+		System.out.println(str1);
+	
+	}
+
+}
